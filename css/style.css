@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: aqua;
+    font-family: 'Roboto Serif', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    letter-spacing: 3px;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+
+
+input[type=text] {
+    margin:8px 0;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    background-color: wheat;
+}
+button{
+    color: blueviolet;
+    border: 4px solid;
+    border-radius: 15px;
+    padding: 6px;
+    width: 100%;
+    font-size: 20px;
+    background-color: wheat;
+}
+
